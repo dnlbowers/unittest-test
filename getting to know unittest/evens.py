@@ -1,6 +1,3 @@
-from asyncio.windows_events import NULL
-
-
 def even_number_of_evens(numbers):
     """
     Should Raise a TypeError if a list in not passed into the function
@@ -15,13 +12,14 @@ def even_number_of_evens(numbers):
         # else:
         evens = (sum([1 for n in numbers if n % 2 == 0]))
 
-        # print(sum([1 for n in numbers if n % 2 == 0])) # used to problem solve
+        # print(sum([1 for n in numbers if n % 2 == 0]))
+        # # used to problem solve
 
         # for n in numbers:
         #     if n % 2 == 0:
         #         evens += 1
 
-        return True if evens and evens % 2 == 0  else False
+        return True if evens and evens % 2 == 0 else False
         # if evens:
         #     return evens % 2 == 0
         # else:

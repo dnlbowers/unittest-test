@@ -1,4 +1,3 @@
-from typing import Type
 import unittest
 from evens import even_number_of_evens  # import function
 
